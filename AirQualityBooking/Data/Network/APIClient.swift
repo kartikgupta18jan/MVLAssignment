@@ -1,3 +1,10 @@
+//
+//  AlamofireAPIClient.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 import Alamofire
 
@@ -20,7 +27,6 @@ final class AlamofireAPIClient: APIClient {
     }
 
     func request<T: Decodable>(_ endpoint: Endpoint, as type: T.Type) async throws -> T {
-        // Build URL with query items
         guard var components = URLComponents(
             url: endpoint.baseURL.appendingPathComponent(endpoint.path),
             resolvingAgainstBaseURL: false
@@ -32,8 +38,7 @@ final class AlamofireAPIClient: APIClient {
 
         guard let url = components.url else { throw NetworkError.invalidURL }
 
-        // Build URLRequest
-        var urlRequest        = URLRequest(url: url)
+        var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = endpoint.method.rawValue
 
         if let body = endpoint.body {
@@ -41,7 +46,6 @@ final class AlamofireAPIClient: APIClient {
             urlRequest.httpBody = try JSONEncoder().encode(AnyEncodable(body))
         }
 
-        // Execute via Alamofire
         let response = await session
             .request(urlRequest)
             .validate()

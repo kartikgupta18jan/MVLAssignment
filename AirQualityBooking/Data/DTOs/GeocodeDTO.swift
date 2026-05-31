@@ -1,3 +1,10 @@
+//
+//  ReverseGeocodeResponseDTO.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 // MARK: - BigDataCloud reverse-geocode DTO
@@ -18,12 +25,6 @@ struct ReverseGeocodeResponseDTO: Decodable {
 
 extension ReverseGeocodeResponseDTO {
     /// Assignment address-name rule (from Address Name Handling Reference):
-    ///
-    /// Given this administrative array:
-    ///   order 2 → South Korea
-    ///   order 3 → Seoul
-    ///   order 4 → Seocho District
-    ///   order 5 → Yangjae 2(i)-dong
     ///
     /// Step 1: Take the TWO entries with the HIGHEST order values → [4, 5]
     /// Step 2: Sort them ascending (broader first) → [Seocho District, Yangjae 2(i)-dong]

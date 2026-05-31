@@ -1,3 +1,10 @@
+//
+//  BookingLocationDTO.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 // MARK: - Request
@@ -24,9 +31,9 @@ struct BookingResponseDTO: Codable {
 
     func toDomain() -> Booking {
         Booking(
-            id:    id ?? UUID().uuidString,
-            a:     BookingLocation(latitude: a.latitude, longitude: a.longitude, aqi: a.aqi, name: a.name),
-            b:     BookingLocation(latitude: b.latitude, longitude: b.longitude, aqi: b.aqi, name: b.name),
+            id: id ?? UUID().uuidString,
+            a: BookingLocation(latitude: a.latitude, longitude: a.longitude, aqi: a.aqi, name: a.name),
+            b: BookingLocation(latitude: b.latitude, longitude: b.longitude, aqi: b.aqi, name: b.name),
             price: price
         )
     }

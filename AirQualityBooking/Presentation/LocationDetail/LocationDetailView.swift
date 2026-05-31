@@ -1,3 +1,10 @@
+//
+//  LocationDetailView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 
 struct LocationDetailView: View {
@@ -30,11 +37,9 @@ struct LocationDetailView: View {
                     .padding(.bottom, 16)
 
                     // ── Rows INDENTED to align with location name ──────────
-                    // Left inset = slot letter width (18) + spacing (14) = 32pt
                     VStack(alignment: .leading, spacing: 10) {
 
                         // aqi row — label left, value immediately after label
-                        // NOT pushed to far right (Figma shows value close to label)
                         HStack(spacing: 32) {
                             Text("aqi")
                                 .font(.subheadline)
@@ -60,12 +65,10 @@ struct LocationDetailView: View {
                             }
                         }
                     }
-                    // Indent to align with location name text start
                     .padding(.leading, 32)
                 }
                 .padding(Theme.spacing)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                // White background for info section
                 .background(Color(.systemBackground))
             }
 
@@ -88,7 +91,6 @@ struct LocationDetailView: View {
             .padding(.horizontal, Theme.spacing)
             .padding(.bottom, 24)
         }
-        // White full-screen background
         .background(Color(.systemBackground))
         .navigationBarTitleDisplayMode(.inline)
     }

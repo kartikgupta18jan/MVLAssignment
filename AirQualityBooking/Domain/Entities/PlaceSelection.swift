@@ -1,3 +1,10 @@
+//
+//  PlaceSelection.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 // MARK: - PlaceSlot
@@ -13,9 +20,9 @@ enum PlaceSlot: String, Hashable, CaseIterable {
 struct PlaceSelection: Equatable, Hashable, Identifiable, Codable {
     var id: String { coordinate.cacheKey }
     let coordinate: Coordinate
-    let addressName: String   // resolved from BigDataCloud
+    let addressName: String
     let aqi: Int
-    var nickname: String?     // user-assigned, max 20 chars
+    var nickname: String?
 
     /// Label the UI shows: nickname when set, otherwise the address.
     var displayName: String {
@@ -26,7 +33,6 @@ struct PlaceSelection: Equatable, Hashable, Identifiable, Codable {
 
 // MARK: - CachedLocation
 
-/// An entry in the coordinate cache (location name resolved, stored for reuse).
 struct CachedLocation: Equatable, Hashable, Identifiable {
     var id: String { coordinate.cacheKey }
     let coordinate: Coordinate

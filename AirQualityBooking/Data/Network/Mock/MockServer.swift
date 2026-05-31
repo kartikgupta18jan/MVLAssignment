@@ -1,7 +1,13 @@
+//
+//  MockServer.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Registers all mock route handlers into MockURLProtocol.
-/// ALL mock logic is isolated here — zero mock code in any repository, use case, or ViewModel.
 enum MockServer {
 
     private static let encoder = JSONEncoder()
@@ -25,7 +31,6 @@ enum MockServer {
 
     private static func registerCreateBooking() {
         MockURLProtocol.register(method: .post, pathContains: "/books") { request in
-            // Decode the REAL body the repository built — validates correct JSON structure.
             let body = try JSONDecoder().decode(CreateBookingRequestDTO.self, from: request.httpBody ?? Data())
             let response = BookingResponseDTO(
                 id: UUID().uuidString,
@@ -65,7 +70,6 @@ enum MockServer {
         MockURLProtocol.register(method: .get, pathContains: "/feed/geo:") { request in
             let coord = Self.parseGeoCoordinate(from: request.url)
             let aqi   = DynamicMockData.aqi(for: coord)
-            // Matches AirQualityResponseDTO shape exactly
             let json  = #"{"status":"ok","data":{"aqi":\#(aqi)}}"#
             return .init(statusCode: 200, data: Data(json.utf8))
         }
@@ -103,7 +107,6 @@ enum MockServer {
 // MARK: - Dynamic mock data
 
 /// Generates values that vary by coordinate so the UI updates as the map moves,
-/// satisfying the "dynamic data" requirement without a real network.
 private enum DynamicMockData {
 
     static func aqi(for coord: Coordinate) -> Int {
@@ -112,7 +115,6 @@ private enum DynamicMockData {
     }
 
     /// Emits a BigDataCloud-shaped JSON payload whose administrative names
-    /// match the address-name rule (highest 2 order values, broader→specific).
     static func geocodeJSON(lat: Double, lng: Double) -> String {
         let seed      = abs(Int(lat * 100) + Int(lng * 100))
         let districts = ["Seocho District", "Gangnam-gu", "Mapo-gu", "Jung-gu", "Yongsan-gu", "Songpa-gu"]
@@ -120,8 +122,6 @@ private enum DynamicMockData {
         let district  = districts[seed % districts.count]
         let dong      = dongs[seed % dongs.count]
 
-        // order 4 = district (higher), order 5 = dong (highest)
-        // The DTO picks the two with highest order → district + dong ✓
         return """
         {
           "localityInfo": {

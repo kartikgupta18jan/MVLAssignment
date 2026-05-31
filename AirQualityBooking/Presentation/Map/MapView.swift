@@ -1,3 +1,10 @@
+//
+//  MapView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 import MapKit
 
@@ -27,8 +34,6 @@ struct MapView: View {
 
                 // ── Pin marker — rendered on top of map, centred on screen ──
                 // Uses GeometryReader so it sits exactly at the visual centre
-                // (accounting for top/bottom panels so the pin points at the
-                //  true navigable centre of the visible map area).
                 pinMarker
                     .position(
                         x: geo.size.width / 2,
@@ -62,7 +67,6 @@ struct MapView: View {
     }
 
     // MARK: - Pin marker
-    // Large enough to be clearly visible; shadow so it reads over any map tile colour
 
     private var pinMarker: some View {
         VStack(spacing: 0) {
@@ -84,8 +88,6 @@ struct MapView: View {
     }
 
     // MARK: - Top bar
-    // Solid white, exactly covers status bar + one content row (44pt)
-    // aqi label + value right-aligned
 
     private func topBar(safeTop: CGFloat) -> some View {
         HStack {
@@ -108,12 +110,11 @@ struct MapView: View {
         }
         // Content height 44pt, plus the status-bar safe area at the top
         .frame(height: safeTop + 44)
-        .padding(.top, safeTop + 44)      // push text below the notch
+        .padding(.top, safeTop + 44)
         .background(Color(.systemBackground))
     }
 
     // MARK: - Bottom panel
-    // Solid white, A/B gray chips + V button, correct bottom safe-area padding
 
     private func bottomPanel(safeBottom: CGFloat) -> some View {
         HStack(alignment: .center, spacing: 10) {
@@ -145,13 +146,11 @@ struct MapView: View {
         }
         .padding(.horizontal, 14)
         .padding(.top, 14)
-        // Bottom padding = safe area + 16pt breathing room
         .padding(.bottom, safeBottom + 44)
         .frame(maxWidth: .infinity)
         .background(Color(.systemBackground))
     }
 
-    // Gray chip
     private func locationChip(slot: PlaceSlot, name: String?, onTap: @escaping () -> Void) -> some View {
         Button(action: onTap) {
             HStack(spacing: 14) {

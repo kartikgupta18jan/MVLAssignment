@@ -1,3 +1,10 @@
+//
+//  AirQualityRepository.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Fetches Air Quality Index for a coordinate.

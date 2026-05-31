@@ -1,3 +1,10 @@
+//
+//  DIContainer.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 import Alamofire
 
@@ -9,7 +16,6 @@ enum AppMode {
     case live
 
     /// Everything served by MockURLProtocol. Works fully offline without any token.
-    /// AQI and address still vary by coordinate (dynamic data requirement ✓).
     case fullyMocked
 }
 
@@ -44,7 +50,6 @@ final class DIContainer: ObservableObject {
 
     init(config: AppConfiguration = .shared) {
         // Decide mode: fall back to fully-mocked when token is absent
-        // so a reviewer can always run the app without any configuration.
         let resolvedMode: AppMode = config.aqicnToken != nil ? .live : .fullyMocked
         self.mode = resolvedMode
 
@@ -53,15 +58,14 @@ final class DIContainer: ObservableObject {
         let mockSession = MockURLProtocol.makeSession()
         let mockClient  = AlamofireAPIClient(session: mockSession)
 
-        // Register mock routes BEFORE wiring repositories
         switch resolvedMode {
         case .live:
-            MockServer.registerBookingRoutes()   // only /books is mocked
+            MockServer.registerBookingRoutes()
         case .fullyMocked:
-            MockServer.registerAllRoutes()       // AQI + geocode + /books
+            MockServer.registerAllRoutes()
         }
 
-        // Build repositories (concrete Data-layer classes, never exposed to Presentation)
+        // Build repositories
         let cache = LocationCache()
 
         let airQualityRepo: AirQualityRepository = AirQualityRepositoryImpl(
@@ -74,11 +78,11 @@ final class DIContainer: ObservableObject {
             config:    config
         )
         let bookingRepo: BookingRepository = BookingRepositoryImpl(
-            apiClient: mockClient,   // always mocked until real server exists
+            apiClient: mockClient,
             config:    config
         )
 
-        // Build use cases (Domain layer — no Data imports in use cases)
+        // Build use cases
         self.fetchAQIUseCase           = FetchAQIUseCaseImpl(repository: airQualityRepo)
         self.reverseGeocodeUseCase     = ReverseGeocodeUseCaseImpl(repository: locationRepo)
         self.fetchCachedUseCase        = FetchCachedLocationsUseCaseImpl(repository: locationRepo)
@@ -87,7 +91,6 @@ final class DIContainer: ObservableObject {
     }
 
     // MARK: - ViewModel factories
-    // Each factory method is the single place that knows which use cases a ViewModel needs.
 
     func makeMapViewModel() -> MapViewModel {
         MapViewModel(

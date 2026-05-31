@@ -1,9 +1,14 @@
+//
+//  BookingRepositoryImpl.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Concrete implementation of BookingRepository.
 /// Sends POST /books with the correct JSON body and GET /books with year/month query params.
-/// The /books server is mocked at the transport layer (MockURLProtocol) — this class
-/// doesn't know or care; it just builds real network requests.
 final class BookingRepositoryImpl: BookingRepository {
     private let apiClient: APIClient
     private let config:    AppConfiguration
@@ -26,9 +31,9 @@ final class BookingRepositoryImpl: BookingRepository {
         )
         let endpoint = Endpoint(
             baseURL: config.bookingBaseURL,
-            path:    "/books",
-            method:  .post,
-            body:    body
+            path: "/books",
+            method: .post,
+            body: body
         )
         let dto = try await apiClient.request(endpoint, as: BookingResponseDTO.self)
         return dto.toDomain()

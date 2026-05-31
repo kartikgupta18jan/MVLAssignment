@@ -1,11 +1,18 @@
+//
+//  MockURLProtocol.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 import Alamofire
 
 /// Intercepts URLRequests at the transport layer and returns canned JSON.
 ///
 /// The repositories build REAL, correct requests (POST /books with proper body,
-/// GET /books?year=&month=, etc.). Only the URLSession config is swapped.
-/// To go live: use a real Alamofire Session — no repository code changes at all.
+///
+
 final class MockURLProtocol: URLProtocol {
 
     struct Response {
@@ -81,7 +88,6 @@ final class MockURLProtocol: URLProtocol {
     override func stopLoading() {}
 
     // URLProtocol moves the body into a stream; read it back so handlers
-    // can inspect the real JSON payload the repository built.
     private static func restoreBody(from request: URLRequest) -> URLRequest {
         var req = request
         guard req.httpBody == nil, let stream = req.httpBodyStream else { return req }

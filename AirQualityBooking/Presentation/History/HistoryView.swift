@@ -1,9 +1,12 @@
+//
+//  HistoryView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 
-/// Screen 4 — Figma:
-/// • Header (Total Count / Total Price) visible at top of list
-/// • When user scrolls UP — header scrolls off screen, only list rows remain (Screen 5)
-/// • Back chevron from navigation bar is always accessible
 struct HistoryView: View {
     @StateObject private var viewModel: HistoryViewModel
 
@@ -26,9 +29,6 @@ struct HistoryView: View {
     }
 
     // MARK: - Scroll content
-    // Header is the FIRST item inside the ScrollView.
-    // As user scrolls up, the header naturally disappears off the top edge —
-    // matching Figma screen 4 (header visible) → screen 5 (header gone, list only).
 
     private var scrollContent: some View {
         ScrollView {
@@ -66,8 +66,6 @@ struct HistoryView: View {
     }
 
     // MARK: - Summary header
-    // Figma: two columns — "Total Count" left, "Total Price" right
-    // Large bold numbers below each label
 
     private var summaryHeader: some View {
         HStack(spacing: 0) {
@@ -101,7 +99,6 @@ struct HistoryView: View {
     }
 
     // MARK: - Booking row
-    // Figma: "A  location name" then "B  location name" — slot letter bold, name regular
 
     private func bookingRow(_ booking: Booking) -> some View {
         VStack(alignment: .leading, spacing: 10) {

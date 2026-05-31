@@ -1,3 +1,10 @@
+//
+//  AppRouter.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 import SwiftUI
 
@@ -9,7 +16,6 @@ enum Route: Hashable {
 }
 
 /// Owns the NavigationStack path.
-/// ViewModels call push/pop — Views never manipulate the path directly.
 @MainActor
 final class AppRouter: ObservableObject {
     @Published var path = NavigationPath()

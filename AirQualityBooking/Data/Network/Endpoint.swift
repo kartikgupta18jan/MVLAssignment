@@ -1,3 +1,10 @@
+//
+//  Endpoint.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 enum HTTPMethod: String {
@@ -13,5 +20,5 @@ struct Endpoint {
     let path: String
     let method: HTTPMethod
     var queryItems: [URLQueryItem] = []
-    var body: (any Encodable)?     = nil
+    var body: (any Encodable)? = nil
 }

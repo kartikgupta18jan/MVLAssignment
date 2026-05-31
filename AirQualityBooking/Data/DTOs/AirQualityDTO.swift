@@ -1,3 +1,10 @@
+//
+//  AirQualityResponseDTO.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 // MARK: - AQICN response DTO
@@ -12,7 +19,6 @@ struct AirQualityResponseDTO: Decodable {
     }
 
     /// AQICN returns "-" (a string) when a station has no current data.
-    /// We decode defensively and treat unknown as 0.
     enum AQIValue: Decodable {
         case number(Int)
         case unknown
@@ -21,7 +27,7 @@ struct AirQualityResponseDTO: Decodable {
             let c = try decoder.singleValueContainer()
             if let i = try? c.decode(Int.self)    { self = .number(i);               return }
             if let d = try? c.decode(Double.self)  { self = .number(Int(d.rounded())); return }
-            self = .unknown   // covers the "-" case
+            self = .unknown
         }
 
         var intValue: Int { if case .number(let v) = self { return v } else { return 0 } }

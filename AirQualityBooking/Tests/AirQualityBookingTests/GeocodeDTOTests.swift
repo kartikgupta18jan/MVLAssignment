@@ -1,10 +1,16 @@
+//
+//  GeocodeDTOTests.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import XCTest
 @testable import AirQualityBooking
 
 final class GeocodeDTOTests: XCTestCase {
 
     // MARK: - Assignment address-name rule
-    // "Seocho District, Yangjae 2(i)-dong" from the reference JSON
 
     func test_topTwoByOrder_assignmentExample() throws {
         let json = """
@@ -25,7 +31,6 @@ final class GeocodeDTOTests: XCTestCase {
 
         // Highest two orders: 5 (Yangjae 2(i)-dong) and 4 (Seocho District)
         // Sort ascending (broader first): order 4, order 5
-        // Concatenate with ", " → "Seocho District, Yangjae 2(i)-dong" ✓
         XCTAssertEqual(name, "Seocho District, Yangjae 2(i)-dong")
     }
 

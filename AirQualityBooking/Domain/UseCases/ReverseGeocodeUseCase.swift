@@ -1,7 +1,13 @@
+//
+//  ReverseGeocodeUseCase.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Resolves a human-readable address for a coordinate.
-/// Caching at 3-decimal precision is handled by the repository implementation.
 protocol ReverseGeocodeUseCase {
     func execute(at coordinate: Coordinate) async throws -> String
 }

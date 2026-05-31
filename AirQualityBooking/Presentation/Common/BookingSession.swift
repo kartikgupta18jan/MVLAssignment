@@ -1,10 +1,13 @@
+//
+//  BookingSession.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Single source of truth for the A → B booking flow.
-///
-/// Shared across all ViewModels via the DI container.
-/// Mutations go through intent-style methods — Views never write to slots directly.
-/// This enforces unidirectional data flow: View → ViewModel → BookingSession → @Published → View.
 @MainActor
 final class BookingSession: ObservableObject {
 
@@ -96,10 +99,9 @@ final class BookingSession: ObservableObject {
     }
 
     /// Resets to the initial state of Screen 1.
-    /// Called when the user returns to Screen 1 from the confirmation screen.
     func reset() {
-        slotA            = nil
-        slotB            = nil
+        slotA = nil
+        slotB = nil
         confirmedBooking = nil
     }
 }

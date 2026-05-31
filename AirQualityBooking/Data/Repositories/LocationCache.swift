@@ -1,10 +1,16 @@
+//
+//  LocationCache.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Thread-safe coordinate → location name cache.
 /// Uses Swift `actor` so concurrent async calls are serialised automatically.
 ///
-/// Keys are collapsed to 3 decimal places via Coordinate.cacheKey so that
-/// 37.5642 and 37.5645 map to the same entry (same location, per the spec).
+
 actor LocationCache {
     private var store: [String: CachedLocation] = [:]
 

@@ -1,22 +1,24 @@
+//
+//  MapView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 import CoreLocation
 
-/// Screen 1 ViewModel.
-///
-/// Owns all state for the map screen. Calls UseCases (never repositories directly).
-/// Publishes a single `State` value — the View is a pure function of it.
-/// All mutations flow through `send(_ action:)` — unidirectional data flow.
 @MainActor
 final class MapViewModel: ObservableObject {
 
     // MARK: - State
 
     struct State {
-        var initialCoordinate: Coordinate?   // set once from CoreLocation
-        var centerCoordinate: Coordinate?    // updated as user drags map
+        var initialCoordinate: Coordinate?
+        var centerCoordinate: Coordinate?
         var centerAQI: Int?
         var isAQILoading  = false
-        var isCapturing   = false            // true while Set A / Set B is in progress
+        var isCapturing   = false
         var errorMessage: String?
     }
 
@@ -123,7 +125,6 @@ final class MapViewModel: ObservableObject {
             defer { state.isCapturing = false }
             do {
                 // Fetch address and AQI concurrently.
-                // AQI failure is non-fatal — use 0 as fallback so the flow always completes.
                 async let nameResult = reverseGeocode.execute(at: coordinate)
                 async let aqiResult  = (try? fetchAQI.execute(at: coordinate)) ?? 0
 

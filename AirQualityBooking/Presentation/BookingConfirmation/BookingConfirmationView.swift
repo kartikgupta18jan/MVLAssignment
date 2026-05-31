@@ -1,3 +1,10 @@
+//
+//  BookingConfirmationView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 
 struct BookingConfirmationView: View {
@@ -60,7 +67,6 @@ struct BookingConfirmationView: View {
 
             // Pinned bottom: price + V button
             VStack(spacing: 0) {
-                // price row — label bold, value inline (not far right)
                 HStack(spacing: 0) {
                     Text("price")
                         .font(.headline)

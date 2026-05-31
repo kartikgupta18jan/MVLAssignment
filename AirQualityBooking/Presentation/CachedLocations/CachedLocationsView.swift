@@ -1,6 +1,12 @@
+//
+//  CachedLocationsView.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 
-/// Screen 5 — list of cached locations to assign to an empty A or B slot.
 struct CachedLocationsView: View {
     @StateObject private var viewModel: CachedLocationsViewModel
 

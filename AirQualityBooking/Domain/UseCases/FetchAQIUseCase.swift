@@ -1,7 +1,13 @@
+//
+//  FetchAQIUseCase.swift
+//  AirQualityBookingApp
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
 /// Fetches the current AQI for a coordinate.
-/// ViewModels call this — never the repository directly.
 protocol FetchAQIUseCase {
     func execute(at coordinate: Coordinate) async throws -> Int
 }

@@ -1,9 +1,16 @@
+//
+//  Theme.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import SwiftUI
 
 // MARK: - Theme
 
 enum Theme {
-    static let primary        = Color(red: 1.0, green: 0.76, blue: 0.03) // Figma amber
+    static let primary        = Color(red: 1.0, green: 0.76, blue: 0.03) 
     static let chipBackground = Color(.systemBackground)
     static let cornerRadius: CGFloat = 8
     static let spacing: CGFloat      = 16

@@ -1,7 +1,12 @@
+//
+//  HistoryViewModel.swift
+//  AirQualityBookingList
+//
+//  Created by Gupta Kartik on 31/05/26.
+//
+
 import Foundation
 
-/// Screen 4 ViewModel — monthly booking history.
-/// Tapping a record pre-loads A/B into the session and refreshes AQI, then returns to Screen 1.
 @MainActor
 final class HistoryViewModel: ObservableObject {
 
@@ -47,7 +52,6 @@ final class HistoryViewModel: ObservableObject {
 
     /// Assignment additional feature:
     /// Tapping a history record → load A/B into session (V button = Book immediately)
-    /// → pop to Screen 1 → refresh AQI because it may have changed.
     func selectBooking(_ booking: Booking) {
         session.loadFromBooking(booking)
         router.popToRoot()
