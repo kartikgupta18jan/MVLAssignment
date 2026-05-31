@@ -6,7 +6,13 @@ A SwiftUI app for selecting two air-quality-aware map locations (A → B) and bo
 
 ## Demo Video
 
-<!-- URL: https://www.image2url.com/r2/default/videos/1780222594557-3f2df20e-7b3a-4360-8601-4c8d047d4e47.mp4 -->
+> 📹 **How to add the video:**
+> 1. Open this repo on GitHub → go to **Issues** → **New Issue**
+> 2. Drag & drop your screen recording (`.mp4` or `.mov`) into the text box
+> 3. GitHub uploads it and gives you a URL like `https://github.com/user-attachments/assets/xxxx.mp4`
+> 4. Replace the placeholder below with that URL, then delete this instruction block
+
+<!-- Demo URL: https://www.image2url.com/r2/default/videos/1780222594557-3f2df20e-7b3a-4360-8601-4c8d047d4e47.mp4 -->
 
 ### What the video demonstrates
 
