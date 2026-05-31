@@ -119,6 +119,7 @@ struct HistoryView: View {
                 .frame(width: 16, alignment: .leading)
             Text(name)
                 .font(.subheadline)
+                .fontWeight(.bold)
                 .lineLimit(1)
             Spacer()
         }

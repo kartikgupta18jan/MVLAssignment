@@ -7,423 +7,405 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46442143F9C0405CC0A680CE = {isa = PBXBuildFile; fileRef = D1DED54E0302ED385E4356BA; };
-		EB3D3B4B0B9F88FF8248A83F = {isa = PBXBuildFile; fileRef = 56362C7AFE8539C71D2D91E4; };
-		A8359309178B527C676D1F24 = {isa = PBXBuildFile; fileRef = A7B605BDCD6A878352BACD3C; };
-		0BA2C516ACD816FBF60DA43B = {isa = PBXBuildFile; fileRef = E5CAA945C8604EFB1E58B9A2; };
-		F68238E0671A55B547077502 = {isa = PBXBuildFile; fileRef = 9C50E61D30A71767DCF053DF; };
-		578A73331F69BB1F393E6802 = {isa = PBXBuildFile; fileRef = 954062108E1382E5E87BBF96; };
-		5D7E59CAC903AC3D71DD0558 = {isa = PBXBuildFile; fileRef = 8C6CE20801A432B2CF2EE339; };
-		E7AE291C34EB765060856FF5 = {isa = PBXBuildFile; fileRef = 1B357B725F2A8E3ED5A902D5; };
-		3C2B5DEC173847CDA62FFEAB = {isa = PBXBuildFile; fileRef = 2787A39FA02A657587F57BC3; };
-		ADE89B9825A0E988AB49AF71 = {isa = PBXBuildFile; fileRef = B2514492BD74C47404AFD1EA; };
-		DE51ED2B445B5C680FAF7CED = {isa = PBXBuildFile; fileRef = F26C97F49C8397A113DD88A7; };
-		DF9D7E3D3D2B141023A7F6A0 = {isa = PBXBuildFile; fileRef = D0452B260183CDCCFB8572AA; };
-		65E0B90FADD8636AB3ABEFC5 = {isa = PBXBuildFile; fileRef = 30D87CF7922ABDEAFFD6DA0C; };
-		2AEB2222AAD76D77A2DF6E53 = {isa = PBXBuildFile; fileRef = 67F0E8C413944B5D22ED2F56; };
-		1166DC7794A657368FA10C23 = {isa = PBXBuildFile; fileRef = C945CEA3FF6CA7E57FF07789; };
-		A94E41CD7C1340BBEB7BE49F = {isa = PBXBuildFile; fileRef = 6C4151AEBD153D3EC2557990; };
-		152B27C9276A6418605EDC9F = {isa = PBXBuildFile; fileRef = 12DDB15C805B30293C95FC4E; };
-		88419594D4F9F9FEA3493A2D = {isa = PBXBuildFile; fileRef = 06E89D65825AF22F61BDAA48; };
-		B09177132CDFD9A1E1745843 = {isa = PBXBuildFile; fileRef = 5FC9F2D3B161A27BF8C3D864; };
-		DCA7D135425F0510DA3C01A5 = {isa = PBXBuildFile; fileRef = 47DB0939F7BD1946DA81494D; };
-		CB2865605E2B382E1F931EEC = {isa = PBXBuildFile; fileRef = E825E3E2305FBE5FD6E8AF74; };
-		BF8A8E4A5A9B88E3330E8AAF = {isa = PBXBuildFile; fileRef = 2CC361FFC0B1367427607936; };
-		112D508E3F6BE41B8B2B645F = {isa = PBXBuildFile; fileRef = 9A9CEB0217B5AE82783054F7; };
-		B1376449F7479A849C94BFD5 = {isa = PBXBuildFile; fileRef = 0320C7E4E71322DC038046FF; };
-		377FCC9F6A0BB65E142007A5 = {isa = PBXBuildFile; fileRef = 28D220AE50B1644836C5FFED; };
-		5EF0049166A84ACB5AFF93A8 = {isa = PBXBuildFile; fileRef = FB17A5A81ADB7F69AC90F25B; };
-		782E8AA447FEB4134F6B4983 = {isa = PBXBuildFile; fileRef = E6AE1F0B830EB709966E3198; };
-		3ABFF4CD61A3E0D44ACA89FA = {isa = PBXBuildFile; fileRef = 6758940621064597829B1D81; };
-		4D0A8FC560257518857D438A = {isa = PBXBuildFile; fileRef = 5CFC2EF6D009C4A83D645425; };
-		793CCA9662D248290E7A8727 = {isa = PBXBuildFile; fileRef = 6856884B1EAA1C00C5A1EB0F; };
-		B674B7DB38E26BB7D2365837 = {isa = PBXBuildFile; fileRef = 1D3F08A18B0377094803F27C; };
-		86C80F602AE0C70BCC98A3C8 = {isa = PBXBuildFile; fileRef = 3517B4E662985475C2D4F837; };
-		BCD2C43F1E814EBD28F7BA69 = {isa = PBXBuildFile; fileRef = B2A9C011043526A0CEC538AC; };
-		F0F68C4E693282385147853F = {isa = PBXBuildFile; fileRef = D4BFABE2C7A12D44445671DE; };
-		DA79E87A50A7355C3EDFA7AF = {isa = PBXBuildFile; fileRef = 636CDD2485FEF637E538298F; };
-		22A1AE5270D75AED6F3E8B36 = {isa = PBXBuildFile; fileRef = 2202A9313CD9CFE4BBDF4A66; };
-		9BC6ECA98423C91B1BC56E82 = {isa = PBXBuildFile; fileRef = 1433F3119FAB248B3222406C; };
-		FBA60A39B2EE06CC953CF367 = {isa = PBXBuildFile; fileRef = 835B71064B8AF87FB1F819B0; };
-		398B4726A15BEE668275E51B = {isa = PBXBuildFile; fileRef = A07D7929F2367E9A26599374; };
-		D54E1156318455B4C0C6FB3E = {isa = PBXBuildFile; fileRef = 937FD6EECDA0412CA13A9205; };
-		0613560C51D4465A3BBFDD57 = {isa = PBXBuildFile; fileRef = 9BA6219AD68A5CC219C731D0; };
-		8477109E876713FF4B855788 = {isa = PBXBuildFile; fileRef = 71D6E652B409A04AA5E9D85C; };
-		70C63100DF2432E28ECAAE80 = {isa = PBXBuildFile; fileRef = 582444D5B3A07B8E16E5C3BC; };
-		29555E55266E121D85373774 = {isa = PBXBuildFile; fileRef = 4607B8C79F0F2F9245EEDA67; };
-		8377A444B0B9F68476104811 = {isa = PBXBuildFile; fileRef = 3C648D0E6416A16496410465; };
-		1E2EED098525958075FD30C0 = {isa = PBXBuildFile; productRef = 2CB753E45F5D3214E28A1802; };
-		948B3E80203616EACF932F15 = {isa = PBXBuildFile; productRef = 70E925215119557E1D9B3E9A; };
+		183A55FF2FCC203B0086BD35 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 183A55FE2FCC203B0086BD35 /* Secrets.xcconfig */; };
+		183A56222FCC233E0086BD35 /* CachedLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56122FCC233E0086BD35 /* CachedLocationsView.swift */; };
+		183A56232FCC233E0086BD35 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56202FCC233E0086BD35 /* MapViewModel.swift */; };
+		183A56242FCC233E0086BD35 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56192FCC233E0086BD35 /* HistoryView.swift */; };
+		183A56252FCC233E0086BD35 /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A561D2FCC233E0086BD35 /* LocationDetailViewModel.swift */; };
+		183A56262FCC233E0086BD35 /* BookingConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56102FCC233E0086BD35 /* BookingConfirmationViewModel.swift */; };
+		183A56272FCC233E0086BD35 /* BookingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56162FCC233E0086BD35 /* BookingSession.swift */; };
+		183A56282FCC233E0086BD35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A561F2FCC233E0086BD35 /* MapView.swift */; };
+		183A56292FCC233E0086BD35 /* CachedLocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56132FCC233E0086BD35 /* CachedLocationsViewModel.swift */; };
+		183A562A2FCC233E0086BD35 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A561A2FCC233E0086BD35 /* HistoryViewModel.swift */; };
+		183A562B2FCC233E0086BD35 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56172FCC233E0086BD35 /* Theme.swift */; };
+		183A562C2FCC233E0086BD35 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56152FCC233E0086BD35 /* AppRouter.swift */; };
+		183A562D2FCC233E0086BD35 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A561C2FCC233E0086BD35 /* LocationDetailView.swift */; };
+		183A562E2FCC233E0086BD35 /* BookingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A560F2FCC233E0086BD35 /* BookingConfirmationView.swift */; };
+		183A56412FCC23570086BD35 /* BookingDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56322FCC23570086BD35 /* BookingDTO.swift */; };
+		183A56422FCC23570086BD35 /* AirQualityRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A563C2FCC23570086BD35 /* AirQualityRepositoryImpl.swift */; };
+		183A56432FCC23570086BD35 /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56352FCC23570086BD35 /* MockServer.swift */; };
+		183A56442FCC23570086BD35 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A563A2FCC23570086BD35 /* NetworkError.swift */; };
+		183A56452FCC23570086BD35 /* LocationRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A563F2FCC23570086BD35 /* LocationRepositoryImpl.swift */; };
+		183A56462FCC23570086BD35 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56392FCC23570086BD35 /* Endpoint.swift */; };
+		183A56472FCC23570086BD35 /* BookingRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A563D2FCC23570086BD35 /* BookingRepositoryImpl.swift */; };
+		183A56482FCC23570086BD35 /* LocationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A563E2FCC23570086BD35 /* LocationCache.swift */; };
+		183A56492FCC23570086BD35 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A562F2FCC23570086BD35 /* AppConfiguration.swift */; };
+		183A564A2FCC23570086BD35 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56382FCC23570086BD35 /* APIClient.swift */; };
+		183A564B2FCC23570086BD35 /* GeocodeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56332FCC23570086BD35 /* GeocodeDTO.swift */; };
+		183A564C2FCC23570086BD35 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56362FCC23570086BD35 /* MockURLProtocol.swift */; };
+		183A564D2FCC23570086BD35 /* AirQualityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56312FCC23570086BD35 /* AirQualityDTO.swift */; };
+		183A565A2FCC236A0086BD35 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A564F2FCC236A0086BD35 /* Coordinate.swift */; };
+		183A565B2FCC236A0086BD35 /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56542FCC236A0086BD35 /* LocationRepository.swift */; };
+		183A565C2FCC236A0086BD35 /* BookingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56532FCC236A0086BD35 /* BookingRepository.swift */; };
+		183A565D2FCC236A0086BD35 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A564E2FCC236A0086BD35 /* Booking.swift */; };
+		183A565E2FCC236A0086BD35 /* PlaceSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56502FCC236A0086BD35 /* PlaceSelection.swift */; };
+		183A565F2FCC236A0086BD35 /* FetchAQIUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56572FCC236A0086BD35 /* FetchAQIUseCase.swift */; };
+		183A56602FCC236A0086BD35 /* ReverseGeocodeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56582FCC236A0086BD35 /* ReverseGeocodeUseCase.swift */; };
+		183A56612FCC236A0086BD35 /* AirQualityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56522FCC236A0086BD35 /* AirQualityRepository.swift */; };
+		183A56622FCC236A0086BD35 /* BookingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56562FCC236A0086BD35 /* BookingUseCase.swift */; };
+		183A56AB2FCC27020086BD35 /* BookingRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A52FCC27020086BD35 /* BookingRepositoryTests.swift */; };
+		183A56AC2FCC27020086BD35 /* BookingSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A62FCC27020086BD35 /* BookingSessionTests.swift */; };
+		183A56AD2FCC27020086BD35 /* PlaceSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A92FCC27020086BD35 /* PlaceSelectionTests.swift */; };
+		183A56AE2FCC27020086BD35 /* GeocodeDTOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A82FCC27020086BD35 /* GeocodeDTOTests.swift */; };
+		183A56AF2FCC27020086BD35 /* BookingAggregateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A42FCC27020086BD35 /* BookingAggregateTests.swift */; };
+		183A56B02FCC27020086BD35 /* CoordinateCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A72FCC27020086BD35 /* CoordinateCacheTests.swift */; };
+		183A56B12FCC27020086BD35 /* AirQualityDTOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A56A32FCC27020086BD35 /* AirQualityDTOTests.swift */; };
+		1E2EED098525958075FD30C0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CB753E45F5D3214E28A1802 /* Alamofire */; };
+		46442143F9C0405CC0A680CE /* AirQualityBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DED54E0302ED385E4356BA /* AirQualityBookingApp.swift */; };
+		948B3E80203616EACF932F15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 70E925215119557E1D9B3E9A /* Alamofire */; };
+		A8359309178B527C676D1F24 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B605BDCD6A878352BACD3C /* DIContainer.swift */; };
+		EB3D3B4B0B9F88FF8248A83F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56362C7AFE8539C71D2D91E4 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1DED54E0302ED385E4356BA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirQualityBookingApp.swift"; path = "App/AirQualityBookingApp.swift"; sourceTree = SOURCE_ROOT; };
-		56362C7AFE8539C71D2D91E4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RootView.swift"; path = "App/RootView.swift"; sourceTree = SOURCE_ROOT; };
-		A7B605BDCD6A878352BACD3C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DIContainer.swift"; path = "App/DIContainer.swift"; sourceTree = SOURCE_ROOT; };
-		6EC82EBC7FAE6DEF6DC17595 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "App/Info.plist"; sourceTree = SOURCE_ROOT; };
-		E5CAA945C8604EFB1E58B9A2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Coordinate.swift"; path = "Domain/Entities/Coordinate.swift"; sourceTree = SOURCE_ROOT; };
-		9C50E61D30A71767DCF053DF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlaceSelection.swift"; path = "Domain/Entities/PlaceSelection.swift"; sourceTree = SOURCE_ROOT; };
-		954062108E1382E5E87BBF96 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Booking.swift"; path = "Domain/Entities/Booking.swift"; sourceTree = SOURCE_ROOT; };
-		8C6CE20801A432B2CF2EE339 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirQualityRepository.swift"; path = "Domain/RepositoryInterfaces/AirQualityRepository.swift"; sourceTree = SOURCE_ROOT; };
-		1B357B725F2A8E3ED5A902D5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LocationRepository.swift"; path = "Domain/RepositoryInterfaces/LocationRepository.swift"; sourceTree = SOURCE_ROOT; };
-		2787A39FA02A657587F57BC3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingRepository.swift"; path = "Domain/RepositoryInterfaces/BookingRepository.swift"; sourceTree = SOURCE_ROOT; };
-		B2514492BD74C47404AFD1EA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FetchAQIUseCase.swift"; path = "Domain/UseCases/FetchAQIUseCase.swift"; sourceTree = SOURCE_ROOT; };
-		F26C97F49C8397A113DD88A7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ReverseGeocodeUseCase.swift"; path = "Domain/UseCases/ReverseGeocodeUseCase.swift"; sourceTree = SOURCE_ROOT; };
-		D0452B260183CDCCFB8572AA = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingUseCase.swift"; path = "Domain/UseCases/BookingUseCase.swift"; sourceTree = SOURCE_ROOT; };
-		30D87CF7922ABDEAFFD6DA0C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NetworkError.swift"; path = "Data/Network/NetworkError.swift"; sourceTree = SOURCE_ROOT; };
-		67F0E8C413944B5D22ED2F56 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Endpoint.swift"; path = "Data/Network/Endpoint.swift"; sourceTree = SOURCE_ROOT; };
-		C945CEA3FF6CA7E57FF07789 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "APIClient.swift"; path = "Data/Network/APIClient.swift"; sourceTree = SOURCE_ROOT; };
-		6C4151AEBD153D3EC2557990 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MockURLProtocol.swift"; path = "Data/Network/Mock/MockURLProtocol.swift"; sourceTree = SOURCE_ROOT; };
-		12DDB15C805B30293C95FC4E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MockServer.swift"; path = "Data/Network/Mock/MockServer.swift"; sourceTree = SOURCE_ROOT; };
-		06E89D65825AF22F61BDAA48 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirQualityDTO.swift"; path = "Data/DTOs/AirQualityDTO.swift"; sourceTree = SOURCE_ROOT; };
-		5FC9F2D3B161A27BF8C3D864 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GeocodeDTO.swift"; path = "Data/DTOs/GeocodeDTO.swift"; sourceTree = SOURCE_ROOT; };
-		47DB0939F7BD1946DA81494D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingDTO.swift"; path = "Data/DTOs/BookingDTO.swift"; sourceTree = SOURCE_ROOT; };
-		E825E3E2305FBE5FD6E8AF74 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LocationCache.swift"; path = "Data/Repositories/LocationCache.swift"; sourceTree = SOURCE_ROOT; };
-		2CC361FFC0B1367427607936 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirQualityRepositoryImpl.swift"; path = "Data/Repositories/AirQualityRepositoryImpl.swift"; sourceTree = SOURCE_ROOT; };
-		9A9CEB0217B5AE82783054F7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LocationRepositoryImpl.swift"; path = "Data/Repositories/LocationRepositoryImpl.swift"; sourceTree = SOURCE_ROOT; };
-		0320C7E4E71322DC038046FF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingRepositoryImpl.swift"; path = "Data/Repositories/BookingRepositoryImpl.swift"; sourceTree = SOURCE_ROOT; };
-		28D220AE50B1644836C5FFED = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppConfiguration.swift"; path = "Data/Config/AppConfiguration.swift"; sourceTree = SOURCE_ROOT; };
-		FB17A5A81ADB7F69AC90F25B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingSession.swift"; path = "Presentation/Common/BookingSession.swift"; sourceTree = SOURCE_ROOT; };
-		E6AE1F0B830EB709966E3198 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppRouter.swift"; path = "Presentation/Common/AppRouter.swift"; sourceTree = SOURCE_ROOT; };
-		6758940621064597829B1D81 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Theme.swift"; path = "Presentation/Common/Theme.swift"; sourceTree = SOURCE_ROOT; };
-		5CFC2EF6D009C4A83D645425 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MapViewModel.swift"; path = "Presentation/Map/MapViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		6856884B1EAA1C00C5A1EB0F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MapView.swift"; path = "Presentation/Map/MapView.swift"; sourceTree = SOURCE_ROOT; };
-		1D3F08A18B0377094803F27C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LocationDetailViewModel.swift"; path = "Presentation/LocationDetail/LocationDetailViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		3517B4E662985475C2D4F837 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LocationDetailView.swift"; path = "Presentation/LocationDetail/LocationDetailView.swift"; sourceTree = SOURCE_ROOT; };
-		B2A9C011043526A0CEC538AC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingConfirmationViewModel.swift"; path = "Presentation/BookingConfirmation/BookingConfirmationViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		D4BFABE2C7A12D44445671DE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingConfirmationView.swift"; path = "Presentation/BookingConfirmation/BookingConfirmationView.swift"; sourceTree = SOURCE_ROOT; };
-		636CDD2485FEF637E538298F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HistoryViewModel.swift"; path = "Presentation/History/HistoryViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		2202A9313CD9CFE4BBDF4A66 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HistoryView.swift"; path = "Presentation/History/HistoryView.swift"; sourceTree = SOURCE_ROOT; };
-		1433F3119FAB248B3222406C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CachedLocationsViewModel.swift"; path = "Presentation/CachedLocations/CachedLocationsViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		835B71064B8AF87FB1F819B0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CachedLocationsView.swift"; path = "Presentation/CachedLocations/CachedLocationsView.swift"; sourceTree = SOURCE_ROOT; };
-		A07D7929F2367E9A26599374 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoordinateCacheTests.swift"; path = "Tests/AirQualityBookingTests/CoordinateCacheTests.swift"; sourceTree = SOURCE_ROOT; };
-		937FD6EECDA0412CA13A9205 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GeocodeDTOTests.swift"; path = "Tests/AirQualityBookingTests/GeocodeDTOTests.swift"; sourceTree = SOURCE_ROOT; };
-		9BA6219AD68A5CC219C731D0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirQualityDTOTests.swift"; path = "Tests/AirQualityBookingTests/AirQualityDTOTests.swift"; sourceTree = SOURCE_ROOT; };
-		71D6E652B409A04AA5E9D85C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingSessionTests.swift"; path = "Tests/AirQualityBookingTests/BookingSessionTests.swift"; sourceTree = SOURCE_ROOT; };
-		582444D5B3A07B8E16E5C3BC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingRepositoryTests.swift"; path = "Tests/AirQualityBookingTests/BookingRepositoryTests.swift"; sourceTree = SOURCE_ROOT; };
-		4607B8C79F0F2F9245EEDA67 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlaceSelectionTests.swift"; path = "Tests/AirQualityBookingTests/PlaceSelectionTests.swift"; sourceTree = SOURCE_ROOT; };
-		3C648D0E6416A16496410465 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BookingAggregateTests.swift"; path = "Tests/AirQualityBookingTests/BookingAggregateTests.swift"; sourceTree = SOURCE_ROOT; };
-		19034DBDE21688452E42591F = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Secrets.xcconfig"; path = "Config/Secrets.xcconfig"; sourceTree = SOURCE_ROOT; };
-		E7A1DE34D9038E37B8AA0A97 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQualityBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6E00448A5E859F42479112D = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183A55FE2FCC203B0086BD35 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		183A560F2FCC233E0086BD35 /* BookingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationView.swift; sourceTree = "<group>"; };
+		183A56102FCC233E0086BD35 /* BookingConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationViewModel.swift; sourceTree = "<group>"; };
+		183A56122FCC233E0086BD35 /* CachedLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedLocationsView.swift; sourceTree = "<group>"; };
+		183A56132FCC233E0086BD35 /* CachedLocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedLocationsViewModel.swift; sourceTree = "<group>"; };
+		183A56152FCC233E0086BD35 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		183A56162FCC233E0086BD35 /* BookingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingSession.swift; sourceTree = "<group>"; };
+		183A56172FCC233E0086BD35 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		183A56192FCC233E0086BD35 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		183A561A2FCC233E0086BD35 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		183A561C2FCC233E0086BD35 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		183A561D2FCC233E0086BD35 /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
+		183A561F2FCC233E0086BD35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		183A56202FCC233E0086BD35 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		183A562F2FCC23570086BD35 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		183A56312FCC23570086BD35 /* AirQualityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityDTO.swift; sourceTree = "<group>"; };
+		183A56322FCC23570086BD35 /* BookingDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDTO.swift; sourceTree = "<group>"; };
+		183A56332FCC23570086BD35 /* GeocodeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodeDTO.swift; sourceTree = "<group>"; };
+		183A56352FCC23570086BD35 /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
+		183A56362FCC23570086BD35 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		183A56382FCC23570086BD35 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		183A56392FCC23570086BD35 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		183A563A2FCC23570086BD35 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		183A563C2FCC23570086BD35 /* AirQualityRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityRepositoryImpl.swift; sourceTree = "<group>"; };
+		183A563D2FCC23570086BD35 /* BookingRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRepositoryImpl.swift; sourceTree = "<group>"; };
+		183A563E2FCC23570086BD35 /* LocationCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCache.swift; sourceTree = "<group>"; };
+		183A563F2FCC23570086BD35 /* LocationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepositoryImpl.swift; sourceTree = "<group>"; };
+		183A564E2FCC236A0086BD35 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		183A564F2FCC236A0086BD35 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		183A56502FCC236A0086BD35 /* PlaceSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSelection.swift; sourceTree = "<group>"; };
+		183A56522FCC236A0086BD35 /* AirQualityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityRepository.swift; sourceTree = "<group>"; };
+		183A56532FCC236A0086BD35 /* BookingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRepository.swift; sourceTree = "<group>"; };
+		183A56542FCC236A0086BD35 /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
+		183A56562FCC236A0086BD35 /* BookingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingUseCase.swift; sourceTree = "<group>"; };
+		183A56572FCC236A0086BD35 /* FetchAQIUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAQIUseCase.swift; sourceTree = "<group>"; };
+		183A56582FCC236A0086BD35 /* ReverseGeocodeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeUseCase.swift; sourceTree = "<group>"; };
+		183A56A32FCC27020086BD35 /* AirQualityDTOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityDTOTests.swift; sourceTree = "<group>"; };
+		183A56A42FCC27020086BD35 /* BookingAggregateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAggregateTests.swift; sourceTree = "<group>"; };
+		183A56A52FCC27020086BD35 /* BookingRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRepositoryTests.swift; sourceTree = "<group>"; };
+		183A56A62FCC27020086BD35 /* BookingSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingSessionTests.swift; sourceTree = "<group>"; };
+		183A56A72FCC27020086BD35 /* CoordinateCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateCacheTests.swift; sourceTree = "<group>"; };
+		183A56A82FCC27020086BD35 /* GeocodeDTOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodeDTOTests.swift; sourceTree = "<group>"; };
+		183A56A92FCC27020086BD35 /* PlaceSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSelectionTests.swift; sourceTree = "<group>"; };
+		56362C7AFE8539C71D2D91E4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = App/RootView.swift; sourceTree = SOURCE_ROOT; };
+		6EC82EBC7FAE6DEF6DC17595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = SOURCE_ROOT; };
+		A7B605BDCD6A878352BACD3C /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DIContainer.swift; path = App/DIContainer.swift; sourceTree = SOURCE_ROOT; };
+		C6E00448A5E859F42479112D /* AirQualityBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DED54E0302ED385E4356BA /* AirQualityBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AirQualityBookingApp.swift; path = App/AirQualityBookingApp.swift; sourceTree = SOURCE_ROOT; };
+		E7A1DE34D9038E37B8AA0A97 /* AirQualityBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQualityBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF82406CD28CB9CE6B4468BA = {
+		B9F937D39496D52E76705033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2EED098525958075FD30C0,
+				948B3E80203616EACF932F15 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9F937D39496D52E76705033 = {
+		DF82406CD28CB9CE6B4468BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948B3E80203616EACF932F15,
+				1E2EED098525958075FD30C0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FE3C93E3CA730CECC8D421A = {
+		183A56112FCC233E0086BD35 /* BookingConfirmation */ = {
 			isa = PBXGroup;
 			children = (
-				E7A1DE34D9038E37B8AA0A97,
-				C6E00448A5E859F42479112D,
+				183A560F2FCC233E0086BD35 /* BookingConfirmationView.swift */,
+				183A56102FCC233E0086BD35 /* BookingConfirmationViewModel.swift */,
+			);
+			path = BookingConfirmation;
+			sourceTree = "<group>";
+		};
+		183A56142FCC233E0086BD35 /* CachedLocations */ = {
+			isa = PBXGroup;
+			children = (
+				183A56122FCC233E0086BD35 /* CachedLocationsView.swift */,
+				183A56132FCC233E0086BD35 /* CachedLocationsViewModel.swift */,
+			);
+			path = CachedLocations;
+			sourceTree = "<group>";
+		};
+		183A56182FCC233E0086BD35 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				183A56152FCC233E0086BD35 /* AppRouter.swift */,
+				183A56162FCC233E0086BD35 /* BookingSession.swift */,
+				183A56172FCC233E0086BD35 /* Theme.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		183A561B2FCC233E0086BD35 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				183A56192FCC233E0086BD35 /* HistoryView.swift */,
+				183A561A2FCC233E0086BD35 /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		183A561E2FCC233E0086BD35 /* LocationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				183A561C2FCC233E0086BD35 /* LocationDetailView.swift */,
+				183A561D2FCC233E0086BD35 /* LocationDetailViewModel.swift */,
+			);
+			path = LocationDetail;
+			sourceTree = "<group>";
+		};
+		183A56212FCC233E0086BD35 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				183A561F2FCC233E0086BD35 /* MapView.swift */,
+				183A56202FCC233E0086BD35 /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		183A56302FCC23570086BD35 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				183A562F2FCC23570086BD35 /* AppConfiguration.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		183A56342FCC23570086BD35 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				183A56312FCC23570086BD35 /* AirQualityDTO.swift */,
+				183A56322FCC23570086BD35 /* BookingDTO.swift */,
+				183A56332FCC23570086BD35 /* GeocodeDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		183A56372FCC23570086BD35 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				183A56352FCC23570086BD35 /* MockServer.swift */,
+				183A56362FCC23570086BD35 /* MockURLProtocol.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		183A563B2FCC23570086BD35 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				183A56372FCC23570086BD35 /* Mock */,
+				183A56382FCC23570086BD35 /* APIClient.swift */,
+				183A56392FCC23570086BD35 /* Endpoint.swift */,
+				183A563A2FCC23570086BD35 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		183A56402FCC23570086BD35 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				183A563C2FCC23570086BD35 /* AirQualityRepositoryImpl.swift */,
+				183A563D2FCC23570086BD35 /* BookingRepositoryImpl.swift */,
+				183A563E2FCC23570086BD35 /* LocationCache.swift */,
+				183A563F2FCC23570086BD35 /* LocationRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		183A56512FCC236A0086BD35 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				183A564E2FCC236A0086BD35 /* Booking.swift */,
+				183A564F2FCC236A0086BD35 /* Coordinate.swift */,
+				183A56502FCC236A0086BD35 /* PlaceSelection.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		183A56552FCC236A0086BD35 /* RepositoryInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				183A56522FCC236A0086BD35 /* AirQualityRepository.swift */,
+				183A56532FCC236A0086BD35 /* BookingRepository.swift */,
+				183A56542FCC236A0086BD35 /* LocationRepository.swift */,
+			);
+			path = RepositoryInterfaces;
+			sourceTree = "<group>";
+		};
+		183A56592FCC236A0086BD35 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				183A56562FCC236A0086BD35 /* BookingUseCase.swift */,
+				183A56572FCC236A0086BD35 /* FetchAQIUseCase.swift */,
+				183A56582FCC236A0086BD35 /* ReverseGeocodeUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		183A56AA2FCC27020086BD35 /* AirQualityBookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				183A56A32FCC27020086BD35 /* AirQualityDTOTests.swift */,
+				183A56A42FCC27020086BD35 /* BookingAggregateTests.swift */,
+				183A56A52FCC27020086BD35 /* BookingRepositoryTests.swift */,
+				183A56A62FCC27020086BD35 /* BookingSessionTests.swift */,
+				183A56A72FCC27020086BD35 /* CoordinateCacheTests.swift */,
+				183A56A82FCC27020086BD35 /* GeocodeDTOTests.swift */,
+				183A56A92FCC27020086BD35 /* PlaceSelectionTests.swift */,
+			);
+			path = AirQualityBookingTests;
+			sourceTree = "<group>";
+		};
+		28A55059ADC32E4831C096D2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				183A56512FCC236A0086BD35 /* Entities */,
+				183A56552FCC236A0086BD35 /* RepositoryInterfaces */,
+				183A56592FCC236A0086BD35 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2DBB2C320F025F9EDDCF4638 /* AirQualityBooking */ = {
+			isa = PBXGroup;
+			children = (
+				B90457BFB2A6735DB8BFDA50 /* App */,
+				28A55059ADC32E4831C096D2 /* Domain */,
+				75EFD36766CE73D07A3A0AB7 /* Data */,
+				D4C1396E8946A91C49BBC7A7 /* Presentation */,
+				BAD3BE4F07F8A4C27F2EAD85 /* Tests */,
+				C0E1EC621062F32B082262CE /* Config */,
+			);
+			name = AirQualityBooking;
+			sourceTree = "<group>";
+		};
+		75EFD36766CE73D07A3A0AB7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				183A56302FCC23570086BD35 /* Config */,
+				183A56342FCC23570086BD35 /* DTOs */,
+				183A563B2FCC23570086BD35 /* Network */,
+				183A56402FCC23570086BD35 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8FE3C93E3CA730CECC8D421A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A1DE34D9038E37B8AA0A97 /* AirQualityBooking.app */,
+				C6E00448A5E859F42479112D /* AirQualityBookingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B90457BFB2A6735DB8BFDA50 = {
+		B90457BFB2A6735DB8BFDA50 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				D1DED54E0302ED385E4356BA,
-				56362C7AFE8539C71D2D91E4,
-				A7B605BDCD6A878352BACD3C,
-				6EC82EBC7FAE6DEF6DC17595,
+				D1DED54E0302ED385E4356BA /* AirQualityBookingApp.swift */,
+				56362C7AFE8539C71D2D91E4 /* RootView.swift */,
+				A7B605BDCD6A878352BACD3C /* DIContainer.swift */,
+				6EC82EBC7FAE6DEF6DC17595 /* Info.plist */,
 			);
-			name = "App";
-			path = "App";
+			path = App;
 			sourceTree = "<group>";
 		};
-		2F3B4A08EEE22EDF8EFCAF3F = {
+		BAD3BE4F07F8A4C27F2EAD85 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E5CAA945C8604EFB1E58B9A2,
-				9C50E61D30A71767DCF053DF,
-				954062108E1382E5E87BBF96,
+				183A56AA2FCC27020086BD35 /* AirQualityBookingTests */,
 			);
-			name = "Entities";
-			path = "Domain/Entities";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		B81ADB6BC694689EA601AB3D = {
+		C0E1EC621062F32B082262CE /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				8C6CE20801A432B2CF2EE339,
-				1B357B725F2A8E3ED5A902D5,
-				2787A39FA02A657587F57BC3,
+				183A55FE2FCC203B0086BD35 /* Secrets.xcconfig */,
 			);
-			name = "RepositoryInterfaces";
-			path = "Domain/RepositoryInterfaces";
+			path = Config;
 			sourceTree = "<group>";
 		};
-		22AF01711AC182C5D643B19E = {
+		D4C1396E8946A91C49BBC7A7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B2514492BD74C47404AFD1EA,
-				F26C97F49C8397A113DD88A7,
-				D0452B260183CDCCFB8572AA,
+				183A56182FCC233E0086BD35 /* Common */,
+				183A56212FCC233E0086BD35 /* Map */,
+				183A561E2FCC233E0086BD35 /* LocationDetail */,
+				183A56142FCC233E0086BD35 /* CachedLocations */,
+				183A56112FCC233E0086BD35 /* BookingConfirmation */,
+				183A561B2FCC233E0086BD35 /* History */,
 			);
-			name = "UseCases";
-			path = "Domain/UseCases";
-			sourceTree = "<group>";
-		};
-		28A55059ADC32E4831C096D2 = {
-			isa = PBXGroup;
-			children = (
-				2F3B4A08EEE22EDF8EFCAF3F,
-				B81ADB6BC694689EA601AB3D,
-				22AF01711AC182C5D643B19E,
-			);
-			name = "Domain";
-			path = "Domain";
-			sourceTree = "<group>";
-		};
-		6B83A4FB05AE16DBC931C12B = {
-			isa = PBXGroup;
-			children = (
-				6C4151AEBD153D3EC2557990,
-				12DDB15C805B30293C95FC4E,
-			);
-			name = "Mock";
-			path = "Data/Network/Mock";
-			sourceTree = "<group>";
-		};
-		5CFE2877B5B0A1FE1E92C8B4 = {
-			isa = PBXGroup;
-			children = (
-				30D87CF7922ABDEAFFD6DA0C,
-				67F0E8C413944B5D22ED2F56,
-				C945CEA3FF6CA7E57FF07789,
-				6B83A4FB05AE16DBC931C12B,
-			);
-			name = "Network";
-			path = "Data/Network";
-			sourceTree = "<group>";
-		};
-		4E91F653FD836D13697CACE5 = {
-			isa = PBXGroup;
-			children = (
-				06E89D65825AF22F61BDAA48,
-				5FC9F2D3B161A27BF8C3D864,
-				47DB0939F7BD1946DA81494D,
-			);
-			name = "DTOs";
-			path = "Data/DTOs";
-			sourceTree = "<group>";
-		};
-		F1DF45976B36A407E83584AA = {
-			isa = PBXGroup;
-			children = (
-				E825E3E2305FBE5FD6E8AF74,
-				2CC361FFC0B1367427607936,
-				9A9CEB0217B5AE82783054F7,
-				0320C7E4E71322DC038046FF,
-			);
-			name = "Repositories";
-			path = "Data/Repositories";
-			sourceTree = "<group>";
-		};
-		9E3016F2444B9CCBAF5A5E81 = {
-			isa = PBXGroup;
-			children = (
-				28D220AE50B1644836C5FFED,
-			);
-			name = "Config";
-			path = "Data/Config";
-			sourceTree = "<group>";
-		};
-		75EFD36766CE73D07A3A0AB7 = {
-			isa = PBXGroup;
-			children = (
-				5CFE2877B5B0A1FE1E92C8B4,
-				4E91F653FD836D13697CACE5,
-				F1DF45976B36A407E83584AA,
-				9E3016F2444B9CCBAF5A5E81,
-			);
-			name = "Data";
-			path = "Data";
-			sourceTree = "<group>";
-		};
-		1B3FCC3A82BE8B221F9F8DD5 = {
-			isa = PBXGroup;
-			children = (
-				FB17A5A81ADB7F69AC90F25B,
-				E6AE1F0B830EB709966E3198,
-				6758940621064597829B1D81,
-			);
-			name = "Common";
-			path = "Presentation/Common";
-			sourceTree = "<group>";
-		};
-		7A0A1C5FE7EFC1744BCC2EFF = {
-			isa = PBXGroup;
-			children = (
-				5CFC2EF6D009C4A83D645425,
-				6856884B1EAA1C00C5A1EB0F,
-			);
-			name = "Map";
-			path = "Presentation/Map";
-			sourceTree = "<group>";
-		};
-		8A7DEB0B3EE8A36763B91F70 = {
-			isa = PBXGroup;
-			children = (
-				1D3F08A18B0377094803F27C,
-				3517B4E662985475C2D4F837,
-			);
-			name = "LocationDetail";
-			path = "Presentation/LocationDetail";
-			sourceTree = "<group>";
-		};
-		D072973FE526B9ACA0EC5047 = {
-			isa = PBXGroup;
-			children = (
-				B2A9C011043526A0CEC538AC,
-				D4BFABE2C7A12D44445671DE,
-			);
-			name = "BookingConfirmation";
-			path = "Presentation/BookingConfirmation";
-			sourceTree = "<group>";
-		};
-		4056ED8479066BDF218C321B = {
-			isa = PBXGroup;
-			children = (
-				636CDD2485FEF637E538298F,
-				2202A9313CD9CFE4BBDF4A66,
-			);
-			name = "History";
-			path = "Presentation/History";
-			sourceTree = "<group>";
-		};
-		1EA65EEC7F930A9BE817FBA1 = {
-			isa = PBXGroup;
-			children = (
-				1433F3119FAB248B3222406C,
-				835B71064B8AF87FB1F819B0,
-			);
-			name = "CachedLocations";
-			path = "Presentation/CachedLocations";
-			sourceTree = "<group>";
-		};
-		D4C1396E8946A91C49BBC7A7 = {
-			isa = PBXGroup;
-			children = (
-				1B3FCC3A82BE8B221F9F8DD5,
-				7A0A1C5FE7EFC1744BCC2EFF,
-				8A7DEB0B3EE8A36763B91F70,
-				D072973FE526B9ACA0EC5047,
-				4056ED8479066BDF218C321B,
-				1EA65EEC7F930A9BE817FBA1,
-			);
-			name = "Presentation";
-			path = "Presentation";
-			sourceTree = "<group>";
-		};
-		BB3AEAEB15E44910A6F7FEFC = {
-			isa = PBXGroup;
-			children = (
-				A07D7929F2367E9A26599374,
-				937FD6EECDA0412CA13A9205,
-				9BA6219AD68A5CC219C731D0,
-				71D6E652B409A04AA5E9D85C,
-				582444D5B3A07B8E16E5C3BC,
-				4607B8C79F0F2F9245EEDA67,
-				3C648D0E6416A16496410465,
-			);
-			name = "AirQualityBookingTests";
-			path = "Tests/AirQualityBookingTests";
-			sourceTree = "<group>";
-		};
-		BAD3BE4F07F8A4C27F2EAD85 = {
-			isa = PBXGroup;
-			children = (
-				BB3AEAEB15E44910A6F7FEFC,
-			);
-			name = "Tests";
-			path = "Tests";
-			sourceTree = "<group>";
-		};
-		C0E1EC621062F32B082262CE = {
-			isa = PBXGroup;
-			children = (
-				19034DBDE21688452E42591F,
-			);
-			name = "Config";
-			path = "Config";
-			sourceTree = "<group>";
-		};
-		2DBB2C320F025F9EDDCF4638 = {
-			isa = PBXGroup;
-			children = (
-				B90457BFB2A6735DB8BFDA50,
-				28A55059ADC32E4831C096D2,
-				75EFD36766CE73D07A3A0AB7,
-				D4C1396E8946A91C49BBC7A7,
-				BAD3BE4F07F8A4C27F2EAD85,
-				C0E1EC621062F32B082262CE,
-				1F79DBE1E64209EA365D25F3,
-				2B44FF250281E226F51605FD,
-			);
-			name = "AirQualityBooking";
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		147982BEBBBCF1EA792C8730 = {
+		147982BEBBBCF1EA792C8730 /* AirQualityBooking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 821683190F4188342CC9A96B;
+			buildConfigurationList = 821683190F4188342CC9A96B /* Build configuration list for PBXNativeTarget "AirQualityBooking" */;
 			buildPhases = (
-				8A5FA62F001E6CD7CC7A4E89,
-				DF82406CD28CB9CE6B4468BA,
-				22B8866AF8AC793A3389D80F,
+				8A5FA62F001E6CD7CC7A4E89 /* Sources */,
+				DF82406CD28CB9CE6B4468BA /* Frameworks */,
+				22B8866AF8AC793A3389D80F /* Resources */,
 			);
-			buildRules = ();
-			dependencies = ();
+			buildRules = (
+			);
+			dependencies = (
+			);
 			name = AirQualityBooking;
 			packageProductDependencies = (
-				2CB753E45F5D3214E28A1802,
+				2CB753E45F5D3214E28A1802 /* Alamofire */,
 			);
 			productName = AirQualityBooking;
-			productReference = E7A1DE34D9038E37B8AA0A97;
+			productReference = E7A1DE34D9038E37B8AA0A97 /* AirQualityBooking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		208C54D1C19CFF7994A925A1 = {
+		208C54D1C19CFF7994A925A1 /* AirQualityBookingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 504DBBF243DB8A53E241E664;
+			buildConfigurationList = 504DBBF243DB8A53E241E664 /* Build configuration list for PBXNativeTarget "AirQualityBookingTests" */;
 			buildPhases = (
-				1063F6DBE95CE9A1601B3915,
-				B9F937D39496D52E76705033,
+				1063F6DBE95CE9A1601B3915 /* Sources */,
+				B9F937D39496D52E76705033 /* Frameworks */,
 			);
-			buildRules = ();
-			dependencies = ();
+			buildRules = (
+			);
+			dependencies = (
+			);
 			name = AirQualityBookingTests;
 			packageProductDependencies = (
-				70E925215119557E1D9B3E9A,
+				70E925215119557E1D9B3E9A /* Alamofire */,
 			);
 			productName = AirQualityBookingTests;
-			productReference = C6E00448A5E859F42479112D;
+			productReference = C6E00448A5E859F42479112D /* AirQualityBookingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1781F676DEDF5767F3243DB0 = {
+		1781F676DEDF5767F3243DB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
@@ -438,265 +420,274 @@
 					};
 				};
 			};
-			buildConfigurationList = 22B2B3FE2898D04F220DBC58;
+			buildConfigurationList = 22B2B3FE2898D04F220DBC58 /* Build configuration list for PBXProject "AirQualityBooking" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			knownRegions = (en, Base);
-			mainGroup = 2DBB2C320F025F9EDDCF4638;
-			packageReferences = (
-				C765AE58BDC274672B47E20A,
+			knownRegions = (
+				en,
+				Base,
 			);
-			productRefGroup = 8FE3C93E3CA730CECC8D421A;
+			mainGroup = 2DBB2C320F025F9EDDCF4638 /* AirQualityBooking */;
+			packageReferences = (
+				C765AE58BDC274672B47E20A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 8FE3C93E3CA730CECC8D421A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				147982BEBBBCF1EA792C8730,
-				208C54D1C19CFF7994A925A1,
+				147982BEBBBCF1EA792C8730 /* AirQualityBooking */,
+				208C54D1C19CFF7994A925A1 /* AirQualityBookingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22B8866AF8AC793A3389D80F = {
+		22B8866AF8AC793A3389D80F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = ();
+			files = (
+				183A55FF2FCC203B0086BD35 /* Secrets.xcconfig in Resources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A5FA62F001E6CD7CC7A4E89 = {
+		1063F6DBE95CE9A1601B3915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46442143F9C0405CC0A680CE,
-				EB3D3B4B0B9F88FF8248A83F,
-				A8359309178B527C676D1F24,
-				0BA2C516ACD816FBF60DA43B,
-				F68238E0671A55B547077502,
-				578A73331F69BB1F393E6802,
-				5D7E59CAC903AC3D71DD0558,
-				E7AE291C34EB765060856FF5,
-				3C2B5DEC173847CDA62FFEAB,
-				ADE89B9825A0E988AB49AF71,
-				DE51ED2B445B5C680FAF7CED,
-				DF9D7E3D3D2B141023A7F6A0,
-				65E0B90FADD8636AB3ABEFC5,
-				2AEB2222AAD76D77A2DF6E53,
-				1166DC7794A657368FA10C23,
-				A94E41CD7C1340BBEB7BE49F,
-				152B27C9276A6418605EDC9F,
-				88419594D4F9F9FEA3493A2D,
-				B09177132CDFD9A1E1745843,
-				DCA7D135425F0510DA3C01A5,
-				CB2865605E2B382E1F931EEC,
-				BF8A8E4A5A9B88E3330E8AAF,
-				112D508E3F6BE41B8B2B645F,
-				B1376449F7479A849C94BFD5,
-				377FCC9F6A0BB65E142007A5,
-				5EF0049166A84ACB5AFF93A8,
-				782E8AA447FEB4134F6B4983,
-				3ABFF4CD61A3E0D44ACA89FA,
-				4D0A8FC560257518857D438A,
-				793CCA9662D248290E7A8727,
-				B674B7DB38E26BB7D2365837,
-				86C80F602AE0C70BCC98A3C8,
-				BCD2C43F1E814EBD28F7BA69,
-				F0F68C4E693282385147853F,
-				DA79E87A50A7355C3EDFA7AF,
-				22A1AE5270D75AED6F3E8B36,
-				9BC6ECA98423C91B1BC56E82,
-				FBA60A39B2EE06CC953CF367,
+				183A56AB2FCC27020086BD35 /* BookingRepositoryTests.swift in Sources */,
+				183A56AC2FCC27020086BD35 /* BookingSessionTests.swift in Sources */,
+				183A56AD2FCC27020086BD35 /* PlaceSelectionTests.swift in Sources */,
+				183A56AE2FCC27020086BD35 /* GeocodeDTOTests.swift in Sources */,
+				183A56AF2FCC27020086BD35 /* BookingAggregateTests.swift in Sources */,
+				183A56B02FCC27020086BD35 /* CoordinateCacheTests.swift in Sources */,
+				183A56B12FCC27020086BD35 /* AirQualityDTOTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1063F6DBE95CE9A1601B3915 = {
+		8A5FA62F001E6CD7CC7A4E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				398B4726A15BEE668275E51B,
-				D54E1156318455B4C0C6FB3E,
-				0613560C51D4465A3BBFDD57,
-				8477109E876713FF4B855788,
-				70C63100DF2432E28ECAAE80,
-				29555E55266E121D85373774,
-				8377A444B0B9F68476104811,
+				46442143F9C0405CC0A680CE /* AirQualityBookingApp.swift in Sources */,
+				EB3D3B4B0B9F88FF8248A83F /* RootView.swift in Sources */,
+				A8359309178B527C676D1F24 /* DIContainer.swift in Sources */,
+				183A56222FCC233E0086BD35 /* CachedLocationsView.swift in Sources */,
+				183A56232FCC233E0086BD35 /* MapViewModel.swift in Sources */,
+				183A56242FCC233E0086BD35 /* HistoryView.swift in Sources */,
+				183A56252FCC233E0086BD35 /* LocationDetailViewModel.swift in Sources */,
+				183A56262FCC233E0086BD35 /* BookingConfirmationViewModel.swift in Sources */,
+				183A56272FCC233E0086BD35 /* BookingSession.swift in Sources */,
+				183A56282FCC233E0086BD35 /* MapView.swift in Sources */,
+				183A56412FCC23570086BD35 /* BookingDTO.swift in Sources */,
+				183A56422FCC23570086BD35 /* AirQualityRepositoryImpl.swift in Sources */,
+				183A56432FCC23570086BD35 /* MockServer.swift in Sources */,
+				183A56442FCC23570086BD35 /* NetworkError.swift in Sources */,
+				183A56452FCC23570086BD35 /* LocationRepositoryImpl.swift in Sources */,
+				183A56462FCC23570086BD35 /* Endpoint.swift in Sources */,
+				183A56472FCC23570086BD35 /* BookingRepositoryImpl.swift in Sources */,
+				183A56482FCC23570086BD35 /* LocationCache.swift in Sources */,
+				183A56492FCC23570086BD35 /* AppConfiguration.swift in Sources */,
+				183A564A2FCC23570086BD35 /* APIClient.swift in Sources */,
+				183A564B2FCC23570086BD35 /* GeocodeDTO.swift in Sources */,
+				183A564C2FCC23570086BD35 /* MockURLProtocol.swift in Sources */,
+				183A564D2FCC23570086BD35 /* AirQualityDTO.swift in Sources */,
+				183A56292FCC233E0086BD35 /* CachedLocationsViewModel.swift in Sources */,
+				183A562A2FCC233E0086BD35 /* HistoryViewModel.swift in Sources */,
+				183A562B2FCC233E0086BD35 /* Theme.swift in Sources */,
+				183A562C2FCC233E0086BD35 /* AppRouter.swift in Sources */,
+				183A565A2FCC236A0086BD35 /* Coordinate.swift in Sources */,
+				183A565B2FCC236A0086BD35 /* LocationRepository.swift in Sources */,
+				183A565C2FCC236A0086BD35 /* BookingRepository.swift in Sources */,
+				183A565D2FCC236A0086BD35 /* Booking.swift in Sources */,
+				183A565E2FCC236A0086BD35 /* PlaceSelection.swift in Sources */,
+				183A565F2FCC236A0086BD35 /* FetchAQIUseCase.swift in Sources */,
+				183A56602FCC236A0086BD35 /* ReverseGeocodeUseCase.swift in Sources */,
+				183A56612FCC236A0086BD35 /* AirQualityRepository.swift in Sources */,
+				183A56622FCC236A0086BD35 /* BookingUseCase.swift in Sources */,
+				183A562D2FCC233E0086BD35 /* LocationDetailView.swift in Sources */,
+				183A562E2FCC233E0086BD35 /* BookingConfirmationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2BA8444434C7D24B1791D171 = {
+		172ED6CAF1C944870E63EF6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvl.airqualitybooking.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1","$(inherited)");
-				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-			};
-			name = Debug;
-		};
-		7F82F273FC0848A677A688D8 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirQualityBooking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirQualityBooking";
 			};
 			name = Release;
 		};
-		36712CC0F68B615D4C6BD000 = {
+		2BA8444434C7D24B1791D171 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19034DBDE21688452E42591F;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36712CC0F68B615D4C6BD000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				AQICN_API_TOKEN = edd402d708393c32c12ae6f216fb0a4143a2be14;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = App/Info.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mvl.airqualitybooking";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-				AQICN_API_TOKEN = edd402d708393c32c12ae6f216fb0a4143a2be14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvl.airqualitybooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		41CF4B0764D2D4BDE50CD9FE = {
+		41CF4B0764D2D4BDE50CD9FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19034DBDE21688452E42591F;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				AQICN_API_TOKEN = edd402d708393c32c12ae6f216fb0a4143a2be14;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = App/Info.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mvl.airqualitybooking";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-				AQICN_API_TOKEN = edd402d708393c32c12ae6f216fb0a4143a2be14;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvl.airqualitybooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C9CE2D62F6E3692F465E77ED = {
+		7F82F273FC0848A677A688D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CE2D62F6E3692F465E77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mvl.airqualitybooking.tests";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvl.airqualitybooking.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirQualityBooking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirQualityBooking";
 			};
 			name = Debug;
-		};
-		172ED6CAF1C944870E63EF6D = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				GENERATE_INFOPLIST_FILE = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mvl.airqualitybooking.tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirQualityBooking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirQualityBooking";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22B2B3FE2898D04F220DBC58 = {
+		22B2B3FE2898D04F220DBC58 /* Build configuration list for PBXProject "AirQualityBooking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BA8444434C7D24B1791D171,
-				7F82F273FC0848A677A688D8,
+				2BA8444434C7D24B1791D171 /* Debug */,
+				7F82F273FC0848A677A688D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		821683190F4188342CC9A96B = {
+		504DBBF243DB8A53E241E664 /* Build configuration list for PBXNativeTarget "AirQualityBookingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36712CC0F68B615D4C6BD000,
-				41CF4B0764D2D4BDE50CD9FE,
+				C9CE2D62F6E3692F465E77ED /* Debug */,
+				172ED6CAF1C944870E63EF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		504DBBF243DB8A53E241E664 = {
+		821683190F4188342CC9A96B /* Build configuration list for PBXNativeTarget "AirQualityBooking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9CE2D62F6E3692F465E77ED,
-				172ED6CAF1C944870E63EF6D,
+				36712CC0F68B615D4C6BD000 /* Debug */,
+				41CF4B0764D2D4BDE50CD9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -704,7 +695,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C765AE58BDC274672B47E20A = {
+		C765AE58BDC274672B47E20A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -715,18 +706,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2CB753E45F5D3214E28A1802 = {
+		2CB753E45F5D3214E28A1802 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C765AE58BDC274672B47E20A;
+			package = C765AE58BDC274672B47E20A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		70E925215119557E1D9B3E9A = {
+		70E925215119557E1D9B3E9A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C765AE58BDC274672B47E20A;
+			package = C765AE58BDC274672B47E20A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
-
 	};
-	rootObject = 1781F676DEDF5767F3243DB0;
+	rootObject = 1781F676DEDF5767F3243DB0 /* Project object */;
 }
