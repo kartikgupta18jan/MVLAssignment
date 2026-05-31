@@ -1,6 +1,3 @@
-# Secrets — NEVER commit real API keys
-Config/Secrets.xcconfig
-
 # macOS
 .DS_Store
 **/.DS_Store
