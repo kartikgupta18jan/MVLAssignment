@@ -4,6 +4,27 @@ A SwiftUI app for selecting two air-quality-aware map locations (A → B) and bo
 
 ---
 
+## Demo Video
+
+<!-- URL: https://www.image2url.com/r2/default/videos/1780222594557-3f2df20e-7b3a-4360-8601-4c8d047d4e47.mp4 -->
+
+### What the video demonstrates
+
+| # | What to show |
+|---|---|
+| 1 | App launching on simulator |
+| 2 | Map loads with live AQI — drag map to see number animate |
+| 3 | Tap **V** → Set A (address appears in A chip) |
+| 4 | Tap A chip → Screen 2, assign nickname "Home", tap V |
+| 5 | Move map → Tap **V** → Set B |
+| 6 | Tap **V** (Book) → Screen 3 shows A, B, nickname, price |
+| 7 | Tap **V** → Screen 4 history list, scroll to hide header |
+| 8 | Tap a history row → back to map with A/B pre-loaded, AQI refreshed |
+| 9 | Repeat full flow once more to prove stability |
+| 10 | Show `Config/Secrets.xcconfig` — token not hardcoded in Swift source |
+| 11 | Briefly explain layers: Domain / Data / Presentation / DIContainer |
+
+
 ## Quick Start
 
 ### 1 — Requirements
